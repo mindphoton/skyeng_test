@@ -1,9 +1,9 @@
 @font-face {
 font-family: 'Museo Sans';
-src: url('fonts/MuseoSansCyrl.eot');
-src: url('fonts/MuseoSansCyrl.eot?#iefix') format('embedded-opentype'),
-url('fonts/MuseoSansCyrl.woff') format('woff'),
-url('fonts/MuseoSansCyrl.ttf') format('truetype');
+src: url('../fonts/MuseoSansCyrl.eot');
+src: url('../fonts/MuseoSansCyrl.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MuseoSansCyrl.woff') format('woff'),
+url('../fonts/MuseoSansCyrl.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
@@ -18,7 +18,7 @@ body {
   margin: 25px auto;
   width: 652px;
   height: 344px;
-  background: url(img/bg_f_1.png) no-repeat center top;
+  background: url(../img/bg_f_1.png) no-repeat center top;
 }
 .subform_2 {
   padding: 0;
@@ -184,7 +184,7 @@ span.txt_agr a {
   margin: 25px auto;
   width: 335px;
   height: 440px;
-  background: url(img/bg_f_1_m.png) no-repeat center top;
+  background: url(../img/bg_f_1_m.png) no-repeat center top;
 }
 .subform_2 {
   padding: 0;
