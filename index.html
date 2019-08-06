@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <title>Форма подписки 1</title>
+</head>
+
+<body>
+
+<div class="subform_1">
+  <form class="gform" method="POST" id="form_1" data-email="Форма №1"  action="https://script.google.com/macros/s/AKfycbx65Wl8Nepp_8Yy6xpKIMaBrIqjXn26S6gbdn0o/exec">
+
+    <h4>Учите английский по сериалу «Шерлок». Это бесплатно</h4>
+    <p>Email-курс с разбором каждой серии и упражнениями для тренировки</p>
+
+    <div class="form-elements">
+      <input id="name" name="name" required placeholder="Ваше имя" />
+      <input id="email" name="email" type="email" value="" required placeholder="Email"/>
+      <button class="button_success">Подписаться<span class="button_bord"></span></button>
+      <span class="txt_agr">Нажимая, я принимаю <br> условия <a href="#">соглашения</a></span>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <p>Подздравляем, с подпиской на курс. <br> Успехов в учебе! :)</p>
+    </div>
+
+  </form>
+</div>
+
+
+
+<div class="subform_2">
+  <div class="subform_2_bg"></div>
+  <form class="gform" method="POST" id="form_2" data-email="Форма №2"  action="https://script.google.com/macros/s/AKfycbx65Wl8Nepp_8Yy6xpKIMaBrIqjXn26S6gbdn0o/exec">
+
+    <h4>Учите английский для деловой переписки. Это бесплатно</h4>
+    <p>Email-курс о том, как эффективно общаться с коллегами и партнерами</p>
+
+    <div class="form-elements">
+      <input id="name" name="name" required placeholder="Ваше имя" />
+      <input id="email" name="email" type="email" value="" required placeholder="Email"/>
+      <button class="button_success">Подписаться<span class="button_bord"></span></button>
+      <span class="txt_agr">Нажимая, я принимаю <br> условия <a href="#">соглашения</a></span>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <p>Подздравляем, с подпиской на курс. <br> Успехов в учебе! :)</p>
+    </div>
+
+  </form>
+</div>
+
+
+
+
+<script data-cfasync="false" src="form-submission-handler.js"></script>
+
+
+
+</body>
+</html>

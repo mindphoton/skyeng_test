@@ -1,0 +1,256 @@
+@font-face {
+font-family: 'Museo Sans';
+src: url('fonts/MuseoSansCyrl.eot');
+src: url('fonts/MuseoSansCyrl.eot?#iefix') format('embedded-opentype'),
+url('fonts/MuseoSansCyrl.woff') format('woff'),
+url('fonts/MuseoSansCyrl.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+body {
+  font-family: 'Museo Sans';
+  margin: 0;
+  padding: 0
+}
+.subform_1 {
+  padding: 0;
+  color: #fff;
+  margin: 25px auto;
+  width: 652px;
+  height: 344px;
+  background: url(img/bg_f_1.png) no-repeat center top;
+}
+.subform_2 {
+  padding: 0;
+  color: #fff;
+  margin: 25px auto;
+  width: 652px;
+  height: 344px;
+  background: #eee;
+}
+.subform_2_bg {
+    background: #5700FF;
+    width: 652px;
+    height: 344px;
+    z-index: -1;
+    position: absolute;
+    margin: 8px 0px 0px 8px;
+}
+.subform_1 h4, .subform_2 h4 {
+  padding: 0;
+  margin: 0 0 29px 0;
+  font-size: 30px;
+  line-height: 40px;
+}
+.subform_2 h4, .subform_2 p {
+  color: #000;
+}
+.subform_1 p, .subform_2 p {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+}
+.subform_1 form, .subform_2 form { 
+  padding: 41px 62px 18px 62px;
+}
+.form-elements {
+    display: flex;
+    margin-top: 35px;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.form-elements input {
+  padding: 11px 6px 10px 17px;
+  width: 154px;
+  border: 2px solid #8145F4;
+  background: #fff;
+  margin-right: 5px;
+}
+.button_success {
+  padding: 8px 35px;
+  background-color: #8145F4;
+  border: 2px solid #8145F4;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  cursor: pointer;
+  width: 156px;
+  text-align: center;
+  -webkit-transition: background-color .3s ease;
+  -moz-transition: background-color .3s ease;
+  -o-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+.button_bord {
+  width: 150px;
+  border: 2px solid #8145F4;
+  height: 36px;
+  position: absolute;
+  display: block;
+  margin: -22px 0 0 -26px;
+}
+button[disabled]{
+cursor: default;
+ -webkit-animation: barberpole 0.5s linear infinite;
+ -moz-animation: barberpole 0.5s linear infinite;
+ -o-animation: barberpole 0.5s linear infinite;
+ animation: barberpole 0.5s linear infinite;
+ -moz-background-size: 30px 30px;
+ -o-background-size: 30px 30px;
+ background-size: 30px 30px;
+ background-color: #8145F4;
+ background-image: -webkit-linear-gradient(45deg, rgba(73, 108, 174, 0.5) 25%, transparent 25%, transparent 50%, rgba(73, 108, 174, 0.5) 50%, rgba(73, 108, 174, 0.5) 75%, transparent 75%, transparent);
+ background-image: -moz-linear-gradient(45deg, rgba(73, 108, 174, 0.5) 25%, transparent 25%, transparent 50%, rgba(73, 108, 174, 0.5) 50%, rgba(73, 108, 174, 0.5) 75%, transparent 75%, transparent);
+ background-image: -o-linear-gradient(45deg, rgba(73, 108, 174, 0.5) 25%, transparent 25%, transparent 50%, rgba(73, 108, 174, 0.5) 50%, rgba(73, 108, 174, 0.5) 75%, transparent 75%, transparent);
+ background-image: linear-gradient( 45deg, rgba(73, 108, 174, 0.5) 25%, transparent 25%, transparent 50%, rgba(73, 108, 174, 0.5) 50%, rgba(73, 108, 174, 0.5) 75%, transparent 75%, transparent);
+}
+@-webkit-keyframes barberpole {
+ from {
+ background-position: 0 0;
+ }
+ to {
+ background-position: 60px 30px;
+ }
+}
+@-moz-keyframes barberpole {
+ from {
+ background-position: 0 0;
+ }
+ to {
+ background-position: 60px 30px;
+ }
+}
+@-o-keyframes barberpole {
+ from {
+ background-position: 0 0;
+ }
+ to {
+ background-position: 60px 30px;
+ }
+}
+@keyframes barberpole {
+ from {
+ background-position: 0 0;
+ }
+ to {
+ background-position: 60px 30px;
+ }
+}
+.subform_2 span.txt_agr, .subform_2 span.txt_agr a {color: #000;}
+span.txt_agr {
+    display: block;
+    font-size: 10px;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    max-width: 106px;
+    right: 131px;
+    top: 54px;
+    flex: none;
+}
+span.txt_agr a {
+  text-decoration: none;
+  color: #ffdc62;
+}
+.thankyou_message p {
+  font-size: 20px;
+  margin-top: 25px;
+}
+.honeypot-field {
+  display: none;
+}
+#form_2 {
+  margin-top: 80px;
+}
+
+
+
+@media (max-width: 567px) {
+
+  .subform_1 form, .subform_2 form {
+    padding: 28px 24px 16px 24px;
+}
+  .subform_1 {
+  padding: 0;
+  color: #fff;
+  margin: 25px auto;
+  width: 335px;
+  height: 440px;
+  background: url(img/bg_f_1_m.png) no-repeat center top;
+}
+.subform_2 {
+  padding: 0;
+  color: #fff;
+  margin: 25px auto;
+  width: 335px;
+  height: 440px;
+  background: #eee;
+}
+.subform_2_bg {
+    background: #5700FF;
+    width: 335px;
+    height: 440px;
+    z-index: -1;
+    position: absolute;
+    margin: 8px 0px 0px 8px;
+}
+
+
+.subform_1 p, .subform_2 p  {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+.subform_1 h4, .subform_2 h4 {
+    padding: 0;
+    margin: 0 0 7px 0;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.form-elements {
+    display: block;
+    margin-top: 20px;
+}
+.form-elements input {
+    width: 100%;
+    max-width: 259px;
+    margin: 0 auto 8px auto;
+    display: block;
+}
+.button_success{
+  margin-top: 22px;
+  width: 100%;
+  max-width: 286px;
+}
+.button_bord {
+    width: 100%;
+    max-width: 282px;
+    margin: -22px 0 0 -29px;
+}
+span.txt_agr {
+    max-width: 100%;
+    right: 0;
+    top: 16px;
+}
+.subform_2 span.txt_agr a {
+  color: #8145F4;
+}
+.thankyou_message p {
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 62px;
+  text-align: center;
+}
+
+
+}
